@@ -23,5 +23,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rack-test"
   spec.add_dependency "rack" # obviously
   spec.add_dependency "multi_json" # chooses the fastest JSON available
-  spec.add_dependency "hipsterhash" # faster than an OpenStruct
 end
